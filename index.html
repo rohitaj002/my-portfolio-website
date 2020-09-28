@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="portfolio.png" type="image/x-icon" />
+
+  <title>Rohit Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="myscript.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animation.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+  <nav id="home">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- <div> -->
+      <label class="logo">Rohit</label>
+    <!-- </div> -->
+
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+  </nav>
+  <section id="container">
+    <div class="container">
+      <div class="aside">
+        <img src="img.png" alt="">
+      </div>
+      <div class="details">
+        <!-- <h1 class="ml11">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span id="hi" class="letters">Hi, I'm</span><br>
+            <span id="rohit" class="letters">Rohit Kumar Sah</span><br>
+          </span>
+        </h1> -->
+
+        <!-- <h3 class="ml11">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">Hi, I'm Rohit Kumar Sah</span>
+             <span class="letters">Rohit Kumar Sah</span> -->
+        <!-- </span>
+        </h3>   -->
+
+        <h1 class="rohit">Hi, I'm <br /> Rohit Kumar Sah</h1>
+
+
+        <div id="abc">
+          <p>Front End Designer & Web Developer</p>
+
+          <a class="button" href="resume.pdf" target="_blank">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+
+  <section class="about" id="about">
+    <div><img data-aos="flip-up" src="About.png" alt=""></div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, fuga sunt incidunt labore repellendus est nulla
+      nihil minus itaque, eligendi ipsam repellat placeat reiciendis in ex ullam, tenetur accusamus inventore! Lorem
+      ipsum dolor sit amet consectetur, adipisicing elit. Id quas laudantium sapiente molestiae sit numquam aut tempore
+      iure molestias dignissimos consectetur, dolorum nesciunt at eveniet aperiam dolore! Debitis, cum distinctio. Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam ut ullam distinctio adipisci facilis
+      corrupti nulla similique? Optio enim deleniti nam obcaecati? Distinctio, facere reprehenderit reiciendis
+      accusantium rerum minima.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, consequuntur rem repudiandae libero doloremque
+      aut excepturi ipsum quidem. Ipsa iure obcaecati earum dolorem autem suscipit? Illum rerum ad eligendi cumque.
+    </p>
+    <button>Hire me</button>
+  </section>
+
+  <!-- Service section -->
+
+  <section class="services" id="services">
+    <div>
+      <h1>Services</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, repellat! Lorem ipDolor, fugit? </p>
+    </div>
+    <div class="servicebox">
+      <h2>Web Development</h2>
+      <img data-aos="fade-right" src="web-development.png" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, repellat! Lorem ipsum d Necessitatibus, labore?
+      </p>
+
+    </div>
+    <div class="servicebox">
+      <h2>Web Design</h2>
+      <img data-aos="fade-left" src="web-design.png" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, repellat! Lorem ipsum architecto. </p>
+
+    </div>
+
+
+    <!-- contact page -->
+  </section>
+  <section id="contact" class="contact">
+    <div class:"contacts-container">
+      <div style="text-align: center">
+        <h1>Contacts</h1>
+
+      </div>
+      <div class:"row">
+        <div class="column">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.937516497007!2d77.62799531410205!3d13.0396492169113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1763cbcc0f55%3A0x3ef2b9d6c5201f54!2sZolo%20Enterprise!5e0!3m2!1sen!2sin!4v1600614329750!5m2!1sen!2sin"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+        <div class="column">
+
+
+
+          <form name="myform" action="#" onsubmit="return validateForm()">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name...">
+
+            <span id="firstname" style="color:red"></span><br>
+
+            <label for="mobile">Contact No.</label><br>
+            <input type="text" id="imobile" name="mobile" placeholder="Your Mobile No....">
+
+            <span id="mobileno" style="color:red"></span><br>
+
+            <label for="Email">Email</label>
+
+            <input type="text" id="iemail" class="email" place holder="Your Email Id...">
+
+            <span id="emailids" style="color:red"></span><br>
+
+            <label for="subject">Subject</label>
+            <textarea id="isubject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
+            <span class="subject" id="subject" style="color:red"></span><br>
+
+            <input type="submit" value="Submit">
+          </form>
+
+
+
+        </div>
+        <div class="contactinfo">
+          <h3>Contact Info</h3>
+
+          <p id="phone">Phone: 9875612273</p>
+          <p>Email: rohit.s@mantralabsglobal.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+  var waypoint = new Waypoint({
+    element: document.getElementById('px-offset-waypoint'),
+    handler: function(direction) {
+      notify('I am 20px from the top of the window')
+    },
+    offset: 20 
+  })
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script> -->
+
+</body>
+
+<script type="text/javascript">
+
+
+
+
+
+  function validateForm() {
+    var name = document.getElementById("fname").value;
+    var mobileNumber = document.getElementById("imobile").value;
+    var emails = document.getElementById("iemail").value;
+    var sub = document.getElementById("isubject").value;
+
+    // console.log(name, mob, mail, sub);
+
+    if (name == "") {
+      document.getElementById('firstname').innerHTML = " ** Please fill the namename field";
+      return false;
+    }
+    if ((name.length <= 2) || (name.length > 20)) {
+      document.getElementById('firstname').innerHTML = " ** namename lenght must be between 2 and 20";
+      return false;
+    }
+    if (!isNaN(name)) {
+      document.getElementById('firstname').innerHTML = " ** only characters are allowed";
+      return false;
+    }
+
+
+
+
+
+
+
+
+
+
+    if (mobileNumber == "") {
+      document.getElementById('mobileno').innerHTML = " ** Please fill the mobile NUmber field";
+      return false;
+    }
+    if (isNaN(mobileNumber)) {
+      document.getElementById('mobileno').innerHTML = " ** name must write digits only not characters";
+      return false;
+    }
+    if (mobileNumber.length != 10) {
+      document.getElementById('mobileno').innerHTML = " ** Mobile Number must be 10 digits only";
+      return false;
+    }
+
+
+
+    if (emails == "") {
+      document.getElementById('emailids').innerHTML = " ** Please fill the email idx` field";
+      return false;
+    }
+    if (emails.indexOf('@') <= 0) {
+      document.getElementById('emailids').innerHTML = " ** @ Invalid Position";
+      return false;
+    }
+
+    if ((emails.charAt(emails.length - 4) != '.') && (emails.charAt(emails.length - 3) != '.')) {
+      document.getElementById('emailids').innerHTML = " ** . Invalid Position";
+      return false;
+    }
+
+    if (sub == "") {
+      document.getElementById('subject').innerHTML = " ** Please fill the namename field";
+      return false;
+    }
+    return true;
+
+  }
+
+
+  AOS.init();
+
+
+
+</script>
+
+
+
+</html>

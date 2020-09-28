@@ -1,0 +1,56 @@
+@keyframes glowing{
+    0%{
+        background-color: #2ba805;
+        box-shadow: 0 0 5px #2ba805;
+    }
+    50%{
+        background-color: #36b61d;
+        box-shadow: 0 0 5px #c91414;
+    }
+    100%{
+        background-color: red;
+        box-shadow: 0 0 5px #ff1515;
+    }
+  }
+  
+  .button{
+    /* margin-top: 20px; */
+    animation: glowing 1300ms infinite;
+  }
+  
+  .logo:hover{
+    font-size: 50px;
+    /* transform: rotate(180deg); */
+    /* transition-delay: 0.1s; */
+  }
+
+  /* steps(40) 1s 1 normal */
+
+
+.rohit{
+    animation: myanim 4s;
+    overflow: hidden;
+    white-space: nowrap;
+    /* position: sticky; */
+    font-size: 50px;
+
+}
+
+@keyframes myanim{
+from{
+    opacity: .5;
+    width: 0;
+}
+to{
+    opacity: 1;
+    width: 100%;
+
+}
+
+}
+
+/* .about p{
+    animation: myanim 4s;
+    overflow: hidden;
+    /* white-space: nowrap; 
+} */
